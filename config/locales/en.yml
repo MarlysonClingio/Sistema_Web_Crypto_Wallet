@@ -1,0 +1,18 @@
+en:
+  actual_locale: English
+  links:
+    edit: Edit
+    show: Show
+    delete: Delete
+    welcome: Welcome
+    date: Date
+    language: Language
+    environment: Environment
+    course: Course
+    name: Name
+    coins: Coins
+    mining_types: Mining Types
+    editing_currency: Editing Currency
+    new_currency: New Currency
+    editing_mining_type: Editing mining type
+    new_mining_type: New Mining Type

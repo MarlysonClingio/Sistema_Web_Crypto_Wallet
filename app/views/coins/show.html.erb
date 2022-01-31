@@ -1,0 +1,18 @@
+<center>
+  <p style="color: green"><%= notice %></p>
+
+  <%= render @coin %>
+
+  <div>
+    <%= link_to t('links.edit'), edit_coin_path(@coin) %>
+  </div>
+  
+  <br>
+  <%= button_to t('links.delete'), @coin, method: :delete %>
+  <br>
+
+  <hr>
+  <div>
+  <%= link_to t('links.back'), coins_path %>
+  </div>
+<center>

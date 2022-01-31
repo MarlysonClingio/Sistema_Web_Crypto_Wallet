@@ -1,0 +1,37 @@
+<div id="<%= dom_id coin %>">
+	<center>
+		<hr>
+		<p>
+			<%=
+			if coin.description == "Bitcoin"
+				image_tag coin.url_image, size:"75x45"
+			elsif coin.description == "Ethereum"
+				image_tag coin.url_image, size:"50x65"
+			elsif coin.description == "Dash"
+				image_tag coin.url_image, size:"45x50"
+			elsif coin.description == "Iota"
+				image_tag coin.url_image, size:"50x45"
+			elsif coin.description == "ZCash"
+				image_tag coin.url_image, size:"50x45"
+			else
+				coin.url_image
+			end
+			%>
+		</p>
+
+		<p>
+			<strong><%= Coin.human_attribute_name(:description) %></strong>
+			<%= coin.description %>
+		</p>
+
+		<p>
+			<strong><%= Coin.human_attribute_name(:acronym) %></strong>
+			<%= coin.acronym %>
+		</p>
+
+		<p>
+			<strong><%= Coin.human_attribute_name(:mining_type) %></strong>
+			<%= coin.mining_type.acronym %>
+		</p>
+	<center>
+</div>

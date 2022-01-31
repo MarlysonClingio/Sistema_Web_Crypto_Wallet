@@ -1,0 +1,16 @@
+<center>
+    <p><%= link_to 'Português', root_path(locale: 'pt-BR') %></p>
+    <p><%= link_to 'English', root_path(locale: 'en') %></p>
+    <hr>
+
+    <h1><%= t('links.welcome') %></h1>
+    <p><strong><%= t('links.date') %>: </strong><%= l(Date.today) %></p>
+    <p><strong><%= t('links.language') %>: </strong><%= t('actual_locale') %></p>
+    <p><strong><%= t('links.environment') %>: </strong><%= ambiente_rails %></p>
+    <p><strong><%= t('links.course') %>: </strong><%= session[:curso] %></p>
+    <p><strong><%= t('links.name') %>: </strong><%= session[:nome] %></p>
+    
+    <hr>
+    <p><%= link_to t('links.coins'), coins_path %></p>
+    <p><%= link_to t('links.mining_types'), mining_types_path %></p>
+<center>

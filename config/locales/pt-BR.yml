@@ -1,0 +1,21 @@
+pt-BR:
+  actual_locale: Português do Brasil
+  links:
+    edit: Editar
+    show: Mostrar
+    delete: Apagar
+    back: Voltar
+    new_coin: Nova Moeda
+    new_mining_type: Novo Tipo de Mineração
+    welcome: Seja Bem-vindo
+    date: Data
+    language: Idioma
+    environment: Ambiente
+    course: Curso
+    name: Nome
+    coins: Moedas
+    mining_types: Tipos de Minerações
+    editing_currency: Editando Moeda
+    new_currency: Nova Moeda
+    editing_mining_type: Editando tipo de mineração
+    new_mining_type: Novo tipo de mineração

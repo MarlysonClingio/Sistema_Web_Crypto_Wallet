@@ -1,0 +1,19 @@
+<p id="notice" style="color: green"><%= notice %></p>
+
+<center>
+  <h1><%= t('links.coins') %></h1>
+
+  <div id="coins">
+    <% @coins.each do |coin| %>
+      <%= render coin %>
+      <p>
+        <%= link_to t('links.show'), coin %>
+      </p>
+      <br>
+    <% end %>
+  </div>
+
+  <hr>
+  <p><%= link_to t('links.new_coin'), new_coin_path %></p>
+  <p><%= link_to t('links.back'), "/" %></p>
+<center>

@@ -1,0 +1,10 @@
+<center>
+  <h1><%= t('links.new_currency') %></h1>
+
+  <%= render "form", coin: @coin %>
+  <br>
+
+  <div>
+    <%= link_to t('links.back'), coins_path %>
+  </div>
+<center>
