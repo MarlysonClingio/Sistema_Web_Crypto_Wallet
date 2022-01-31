@@ -1,4 +1,4 @@
-<h1>Sistema Web Crypto_wallet</h1>
+<h1>Sistema Web Crypto Wallet</h1>
 
 <h3>Objetivo</h3>
 Projeto realizado no Curso de "Ruby on Rails 5.x - Do início ao fim!" com o Professor "Jackson Pires"
